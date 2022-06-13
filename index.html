@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Luide-Portifólio</title>
+</head>
+<body>
+  <main>
+
+    <header>
+      <div class="logo">
+        LOGO
+      </div>
+      
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+
+            <!--Modo Noturno-->
+       
+            <input type="checkbox" class="checkbox" id="chk">
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+
+
+        </nav>
+    
+    </header>  
+    
+
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, me chamo Luide</h2>
+        <span class="home-position">Aspirante a Desenvolvedor Front-end</span>
+        <span class="home-resume">
+            Formação Técnica em Desenvolvimento de Sistemas pelo Senai, especializando em programação web na StartSe Tech Academy. Conhecimentos em HTML, CSS e JS (básico - médio)
+        </span>
+
+        <div class="icones">
+          <img src="imagens/html.png" alt="Icone HTML">
+          <img src="imagens/css.png" alt="Icone CSS">
+          <img src="imagens/js.png" alt="Icone JS">
+        </div>
+
+        <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="imagens/eu.jpeg" alt="Foto de perfil">
+      </div>
+    </section>
+
+
+
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+             <a href="https://luide19.github.io/Projeto-Finans/"><img src="imagens/finans.png" alt="Foto de um site"></a> 
+            </div>
+            <div class="project-info">
+              <h2>Finans - Site de Finanças</h2>
+              <p>Site responsivo feito com HTML e CSS</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="project-img">
+             <a href="https://luide19.github.io/Spotify-Clone/"><img src="imagens/spotify.png" alt="Foto de uma loja online"></a> 
+            </div>
+            <div class="project-info">
+              <h2>Spotify</h2>
+              <p>Clone responsivo feito com HTML e CSS</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="project-img">
+           <a href="https://luide19.github.io/Calculadora-IMC/"><img src="imagens/calculadoraimc.png" alt="Foto de um sistema"></a>   
+            </div>
+            <div class="project-info">
+              <h2>Calculadora de IMC</h2>
+              <p>Calculadora responsiva feita com HTML, CSS e JS</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="project-img">
+             <a href="https://luide19.github.io/Lampada/"><img src="imagens/lampada.png" alt="Foto de um sistema"></a> 
+            </div>
+            <div class="project-info">
+              <h2>Lâmpada</h2>
+              <p>Lâmpada feita com HTML,CSS e JS</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="project-img">
+           <a href="https://luide19.github.io/Mata-Mosquito/"><img src="imagens/matamosquito.png" alt="Foto de um sistema"></a>
+            </div>
+            <div class="project-info">
+              <h2>Jogo Mata-Mosquito</h2>
+              <p>Jogo para PC feito com HTML, CSS e JS</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+    
+    Encontre-me no Linkedin e no GitHub
+    
+    <div>
+      <a href="https://www.linkedin.com/in/luide-santos-de-jesus/"> <img class="imagemlinkedin" src="imagens/linkedin.png" alt="Icone Linkedin"> </a>
+      <a href="https://github.com/luide19"> <img class="imagemgithub" src="imagens/github.png" alt="Icone Github"> </a>
+    </div>
+
+      
+   
+  </section>
+
+  <footer>
+    copyright © Luide Santos de Jesus <br>
+     Todos os direitos reservados <br>
+
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <!--Modo Escuro-->
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
